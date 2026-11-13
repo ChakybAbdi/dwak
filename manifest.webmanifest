@@ -1,0 +1,23 @@
+{
+  "name": "Dwak — Trouvez votre médicament",
+  "short_name": "Dwak",
+  "description": "Quelle pharmacie près de chez vous a votre médicament, maintenant. Disponibilité vérifiée, génériques, pharmacies de garde, alertes.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f4ee",
+  "theme_color": "#2d5940",
+  "categories": ["health", "medical", "utilities"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Pharmacies de garde", "url": "./?view=garde", "description": "Pharmacies ouvertes cette nuit" },
+    { "name": "Mes alertes", "url": "./?view=alerts", "description": "Médicaments suivis" }
+  ]
+}
